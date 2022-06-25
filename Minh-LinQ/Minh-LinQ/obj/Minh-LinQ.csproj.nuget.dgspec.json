@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\HP Victus\\Documents\\GitHub\\Contain All (Github)\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj": {}
+    "C:\\C#\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj": {}
   },
   "projects": {
-    "C:\\Users\\HP Victus\\Documents\\GitHub\\Contain All (Github)\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj": {
+    "C:\\C#\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\HP Victus\\Documents\\GitHub\\Contain All (Github)\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj",
+        "projectUniqueName": "C:\\C#\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj",
         "projectName": "Minh-LinQ",
-        "projectPath": "C:\\Users\\HP Victus\\Documents\\GitHub\\Contain All (Github)\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj",
-        "packagesPath": "C:\\Users\\HP Victus\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\HP Victus\\Documents\\GitHub\\Contain All (Github)\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\obj\\",
+        "projectPath": "C:\\C#\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\Minh-LinQ.csproj",
+        "packagesPath": "C:\\Users\\Minh\\.nuget\\packages\\",
+        "outputPath": "C:\\C#\\LinqDB-CRUD\\Minh-LinQ\\Minh-LinQ\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\HP Victus\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Minh\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -54,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "c:\\program files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }
